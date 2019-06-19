@@ -9,4 +9,4 @@ if (env === "development") {
     baseUrl = ''
 }
 
-export const token = (data: object) => http("/connect/token", data, "post", baseUrl)
+export const token = (data: object) => http({method: "POST", url: baseUrl + "/connect/token", data})
