@@ -1,0 +1,39 @@
+{
+  "defaultSeverity": "warn",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    "quotemark": false,
+    "indent": [true, "spaces", 4],
+    "trailing-comma": false,
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-consecutive-blank-lines": false,
+    "await-promise": true,  
+    "no-return-await": true,
+    "no-console": true,
+    "ban-comma-operator": true,
+    "arrow-parens": true,
+    "no-empty": false,
+    "semicolon": false,
+    "no-null-keyword": false,
+    "no-for-in-array": false,
+    "no-inferrable-types": [true, "ignore-params", "ignore-properties"],
+    "quote-props": false,
+    "ban-types": false,
+    "no-namespace": false,
+    "no-construct": false,
+    "no-object-literal-type-assertion": false,
+    "no-string-literal": false,
+    "member-access": false,
+    "member-ordering": false,
+    "whitespace": false
+  }
+}
